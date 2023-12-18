@@ -1,0 +1,26 @@
+# Joey Troyer
+# 9/22/23
+
+myfile: clean_myfile
+	gcc myfile.c -o myfile
+
+ext4: clean_ext4
+	gcc ext4.c -o ext4
+
+ntfs: clean_ntfs
+	gcc ntfs.c -o ntfs
+
+mbr: clean_mbr
+	gcc mbr.c -o mbr
+
+clean_mbr:
+	rm -f mbr
+
+clean_ext4:
+	rm -f ext4
+
+clean_ntfs:
+	rm -f ntfs
+
+clean_myfile:
+	rm -f myfile
