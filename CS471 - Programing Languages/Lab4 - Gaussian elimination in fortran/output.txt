@@ -1,0 +1,15 @@
+Augmented Matrix
+   0.00      0.00      0.00      0.00
+   0.00      0.00      0.00      0.00
+   0.00      0.00      0.00      0.00
+
+After Gaussian Elimination
+   0.00      0.00      0.00      0.00
+    NaN       NaN       NaN      0.00
+    NaN       NaN       NaN      0.00
+
+X=
+    NaN
+    NaN
+    NaN
+

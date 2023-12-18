@@ -1,0 +1,54 @@
+V "GNAT Lib v7"
+M P W=b
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV SPARK_05
+
+U adatest%b		adatest.adb		ca1e7f19 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170109082349 76789da1 ada%s
+D a-except.ads		20161214142939 291912d5 ada.exceptions%s
+D a-inteio.ads		20161214142948 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20161214142948 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20161214142926 119b8fb3 ada.streams%s
+D a-tags.ads		20161214142926 01f5e3ef ada.tags%s
+D a-textio.ads		20161214142926 386df5d4 ada.text_io%s
+D a-tiinio.ads		20161214142926 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170109082349 31484697 ada.unchecked_conversion%s
+D adatest.adb		20220908012012 04380369 adatest%b
+D interfac.ads		20161214142939 5ab55268 interfaces%s
+D i-cstrea.ads		20161214142926 e53d8b8e interfaces.c_streams%s
+D system.ads		20170512081901 4635ec04 system%s
+D s-crtl.ads		20161214142926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20161214142948 54135002 system.exception_table%s
+D s-ficobl.ads		20161214142948 078245e4 system.file_control_block%s
+D s-parame.ads		20161214142939 7e2a0d7f system.parameters%s
+D s-soflin.ads		20161214142939 14e1eb6c system.soft_links%s
+D s-stache.ads		20161214142939 a37c21ec system.stack_checking%s
+D s-stalib.ads		20161214142948 09bd3940 system.standard_library%s
+D s-stoele.ads		20161214142939 2dc34a04 system.storage_elements%s
+D s-traent.ads		20161214142939 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20161214142939 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20161214142939 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|6r6 6r23 7r6 7r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 10|7w10 7r35
+X 7 a-textio.ads
+49K13*Text_IO 471e16 10|6w10 6r27
+263U14*Put_Line 10|13s9 22s9 25s13 27s13 30s9 34s9 37s9 40s13 42s13 45s9
+. 51s9 54s9 57s13 59s13 62s9 66s9 69s9 72s13 74s13 77s9
+X 10 adatest.adb
+9U11*adaTest 9b11 81l9 81t16
+11V14 func{boolean} 11b14 15l9 15t13 24s27 39s26 56s22 71s21
+17i5 a{integer} 21m9 23r15 24r12 31m9 31r14 36m9 38r15 39r12 46m9 46r14 52m9
+. 55r15 56r12 63m9 63r14 68m9 70r15 71r12 78m9 78r14
+
