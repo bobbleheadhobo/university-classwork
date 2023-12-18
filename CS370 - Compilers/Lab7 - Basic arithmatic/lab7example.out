@@ -1,0 +1,45 @@
+Type for VAR is 14 
+Type for VAR is 14 
+
+	LABEL		Offset 	 LEVEL
+	x		2		2
+	y		1		1
+	b		0		1
+	f		0		0
+	y		100		0
+	Z		0		0
+Type for VAR is 14 
+Type for VAR is 14 
+
+	LABEL		Offset 	 LEVEL
+	x		2		2
+	y		1		1
+	b		0		1
+	f		0		0
+	y		100		0
+	Z		0		0
+
+	LABEL		Offset 	 LEVEL
+	y		1		1
+	b		0		1
+	f		0		0
+	y		100		0
+	Z		0		0
+Main symbol table START 
+
+	LABEL		Offset 	 LEVEL
+	z		101		0
+	f		0		0
+	y		100		0
+	Z		0		0
+Main symbol table END 
+Variable INT  y has offset 100 
+Variable INT  Z[100] has offset 0 
+INT FUNCTION f  max offset 0
+ symbol table name f 0 1
+  ( 
+    PARAMETER  INT  b
+    ) 
+    BLOCK STATEMENT  
+     Variable INT  y has offset 1 
+  Variable INT  z has offset 101 
