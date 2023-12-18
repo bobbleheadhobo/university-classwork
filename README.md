@@ -1,6 +1,6 @@
 # University Coursework Repository
 
-This repository contains my lab assignments and projects from a few computer science courses I've taken during my college education.
+This repository contains my lab assignments and projects from a few computer science courses I've taken during my college education. Feel free to explore my projects and lab work.
 
 ## Table of Contents
 - [CS370 - Compilers](#cs370---compilers)
@@ -37,11 +37,6 @@ This section includes projects like creating a mini shell terminal, comparing so
 This course explored various programming languages and their unique features. Labs ranged from understanding memory allocation, performing Gaussian elimination in different languages, fixing corrupt files, and creating functions with Lisp.
 
 [View Labs](/CS471/Programming-Languages)
-
----
-
-## Contributions and Feedback
-Feel free to explore my projects and lab work.
 
 ---
 
